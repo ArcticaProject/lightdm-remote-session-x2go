@@ -1,7 +1,7 @@
 Source: lightdm-remote-session-x2go
 Section: misc
 Priority: extra
-Maintainer: Maintainer: Artica Project <devs@lists.arctica-project.org>
+Maintainer: Artica Project <devs@lists.arctica-project.org>
 Uploaders:
  Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 Build-Depends:
