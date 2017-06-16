@@ -1,7 +1,7 @@
 Source: lightdm-remote-session-x2go
 Section: misc
 Priority: extra
-Maintainer: X2Go Developers <x2go-dev@lists.berlios.de>
+Maintainer: Maintainer: Artica Project <devs@lists.arctica-project.org>
 Uploaders:
  Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 Build-Depends:
@@ -9,10 +9,10 @@ Build-Depends:
  dh-apparmor,
  cdbs,
  dh-autoreconf,
-Standards-Version: 3.9.4
-Homepage: http://wiki.x2go.org
-Vcs-Git: git://code.x2go.org/lightdm-remote-session-x2go
-Vcs-Browser: http://code.x2go.org/gitweb?p=lightdm-remote-session-x2go.git;a=summary
+Standards-Version: 3.9.8
+Homepage: http://github.com/ArcticaProject/lightdm-remote-session-x2go
+Vcs-Git: https://github.com/ArcticaProject/lightdm-remote-session-x2go/
+Vcs-Browser: https://github.com/ArcticaProject/lightdm-remote-session-x2go/
 
 Package: lightdm-remote-session-x2go
 Architecture: any
