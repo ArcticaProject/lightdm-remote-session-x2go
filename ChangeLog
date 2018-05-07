@@ -1,17 +1,55 @@
-2017-05-31 13:36:23 +0200 Mike Gabriel (7fc0a68)
+2018-05-07 15:48:26 +0200 Mike Gabriel (98a526d)
 
-	* release 0.0.1.1 (HEAD -> release-builds, master)
+	* release 0.0.2.0 (HEAD -> master, tag: 0.0.2.0)
+
+2018-05-07 15:07:42 +0200 Mike Gabriel (8dfdcd9)
+
+	* README.md: Add more info.
+
+2018-05-07 15:05:47 +0200 Mike Gabriel (0ad3d44)
+
+	* autogen.sh: Drop file. Not used.
+
+2018-05-04 12:57:28 +0200 Mike Gabriel (81fb345)
+
+	* debian/control: Make sure libpam-x2go (>= 0.0.2) gets pulled in.
+          Required for UCCS API v5).
+
+2018-05-04 12:56:05 +0200 Mike Gabriel (453ffd1)
+
+	* debian/control: The x2goclient pkg does not work with LightDM
+          Remote Session X2Go (, yet), so removing it from
+          alternativ D.
+
+2017-06-16 11:57:05 +0200 Mike Gabriel (d076185)
+
+	* debian/control: Syntax fix in Maintainer: field.
+
+2017-06-16 11:56:28 +0200 Mike Gabriel (e8a66fe)
+
+	* debian/*: Drop last fragments tying us to X2Go project.
+
+2017-06-16 11:56:07 +0200 Mike Gabriel (90e65b4)
+
+	* debian/copyright: Adopt copyright file from official Debian
+          package.
+
+2017-06-16 11:16:14 +0200 Mike Gabriel (5ffee3f)
+
+	* debian/upstream: Add upstream signing GnuPG key.
+
+2017-05-31 13:36:23 +0200 Mike Gabriel (5ca3452)
+
+	* release 0.0.1.1 (tag: 0.0.1.1)
 
 2016-03-11 12:10:33 +0100 Mike Gabriel (ae03b1c)
 
 	* Merge branch 'jappedk-pr/apparmor-add-systemd-and-dbus-rules'
-          (origin/master)
 
 2016-03-11 11:22:48 +0100 jappedk (a5bcea0)
 
 	* apparmor: Add rules to allow D-Bus session(send) and
           accessibility(send, receive)
-          (jappedk-pr/apparmor-add-systemd-and-dbus-rules)
 
 2016-03-11 11:03:58 +0100 jappedk (9e455ba)
 
@@ -56,7 +94,7 @@
 
 2013-04-27 13:49:28 +0200 Mike Gabriel (5322edf)
 
-	* release 0.0.1.0 (tag: 0.0.1.0, build-main)
+	* release 0.0.1.0 (tag: 0.0.1.0)
 
 2013-04-26 00:59:49 +0200 Mike Gabriel (6564651)
 
@@ -64,7 +102,7 @@
 
 2013-04-26 00:58:58 +0200 Mike Gabriel (3590ecd)
 
-	* whitespace cleanup (x2gosessiontype)
+	* whitespace cleanup
 
 2013-04-24 18:44:19 +0200 Mike Gabriel (ac687b0)
 
