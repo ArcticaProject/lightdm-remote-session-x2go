@@ -6,3 +6,15 @@ This code project was originally started by Canonical Ltd. and has been
 adapted by various authors with the purpose of making Remote Logon
 against X2Go via Arctica Greeter (formerly known as Unity Greeter)
 available on Ubuntu and non-Ubuntu systems alike.
+
+## Installation
+
+See https://github.com/ArcticaProject/ArcticaDocs/tree/master/ArcticaGreeter
+
+## Configuration
+
+Nothing to do.
+
+## Limitations / Known Issues
+
+  * any SSH host key is accepted, security should be improved
