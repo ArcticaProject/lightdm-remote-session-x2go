@@ -26,6 +26,7 @@ if [ -e "$socket" ]; then
 	                                                     --add-to-known-hosts	\
 	                                                     --kbd-type auto		\
 	                                                     --sound pulse		\
+	                                                     --geometry fullscreen	\
 	                                                     2>&1			\
 	\
 	                               | logger -t lightdm-remote-session-x2go --
