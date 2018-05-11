@@ -5,11 +5,12 @@ Maintainer: Artica Project <devs@lists.arctica-project.org>
 Uploaders:
  Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 Build-Depends:
+ cdbs,
  debhelper (>= 9),
  dh-apparmor,
- cdbs,
  dh-autoreconf,
-Standards-Version: 4.1.1
+ dpkg-dev (>= 1.16.1.1),
+Standards-Version: 4.1.4
 Homepage: http://github.com/ArcticaProject/lightdm-remote-session-x2go
 Vcs-Git: https://github.com/ArcticaProject/lightdm-remote-session-x2go/
 Vcs-Browser: https://github.com/ArcticaProject/lightdm-remote-session-x2go/
@@ -19,14 +20,14 @@ Architecture: any
 Depends: 
  ${shlibs:Depends},
  ${misc:Depends},
- socat,
- zenity,
- pyhoca-cli (>= 0.2.1.0-0~),
  libpam-x2go (>= 0.0.2),
  lightdm (>= 1.3.3-0~),
+ pyhoca-cli (>= 0.2.1.0-0~),
+ socat,
+ zenity,
 Suggests:
  apparmor,
-Description: Log into X2Go sessions via LightDM
- The configuration files needed and scripts required to login
- to a full screen X2Go session using LightDM and PyHoca / Python X2Go
- or X2Go Client.
+Description: LightDM Remote Logon Support for X2Go sessions
+ The configuration files needed and scripts required to login to a
+ fullscreen X2Go session using LightDM's Arctica Greeter and PyHoca /
+ Python X2Go or X2Go Client.
