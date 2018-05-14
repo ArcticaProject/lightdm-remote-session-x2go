@@ -28,6 +28,7 @@ if [ -e "$socket" ]; then
 	                                                     --kbd-type auto		\
 	                                                     --sound pulse		\
 	                                                     --geometry fullscreen	\
+	                                                     --xinerama			\
 	                                                     2>&1			\
 	\
 	                               | logger -t lightdm-remote-session-x2go --
