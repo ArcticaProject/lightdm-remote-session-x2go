@@ -17,18 +17,6 @@ AC_ARG_ENABLE(localinstall, AS_HELP_STRING([--enable-localinstall],
               with_localinstall=$enableval,
               with_localinstall=no)
 
-###########################
-# PAM Module dir
-###########################
-
-if test "x$with_localinstall" = "xyes"; then
-	PAMMODULEDIR="${libdir}/security/"
-else
-	PAMMODULEDIR="/lib/security"
-fi
-AC_SUBST(PAMMODULEDIR)
-
-
 AC_CONFIG_FILES([
   Makefile
 ])
