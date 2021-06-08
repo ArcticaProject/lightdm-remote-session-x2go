@@ -22,7 +22,7 @@
 #include <unistd.h>
 
 int
-main (int argc, char * argv[])
+main (int __attribute__((unused)) argc, char __attribute__((unused)) *argv[])
 {
 	char * args[2];
 	args[0] = PKGDATADIR "/x2go-session";
